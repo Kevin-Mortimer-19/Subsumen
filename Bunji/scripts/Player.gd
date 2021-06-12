@@ -6,6 +6,9 @@ export var move_speed = 200;
 
 var vel = Vector2();
 
+const BULLET = preload("res://entities/Bullet.tscn");
+# cooldown between shots
+var b_cooldown = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -22,6 +25,9 @@ func _physics_process(delta):
 			vel.x -= 1;
 		if Input.is_action_pressed("move_c1_right"):
 			vel.x += 1;
+		if Input.is_action_pressed("fire") && b_cooldown == 0:
+			fire(vel);
+			b_cooldown = 10;
 	else:
 		if Input.is_action_pressed("move_c2_down"):
 			vel.y += 1;
@@ -32,6 +38,14 @@ func _physics_process(delta):
 		if Input.is_action_pressed("move_c2_right"):
 			vel.x += 1;
 	move_and_slide( (vel.normalized()*move_speed), Vector2.UP);
+	if b_cooldown > 0:
+		b_cooldown -= 1;
+
+func fire(v):
+	var b = BULLET.instance()
+	get_parent().add_child(b)
+	b.global_position = global_position
+	b.init(v)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
