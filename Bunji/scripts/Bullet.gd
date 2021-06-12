@@ -15,4 +15,12 @@ func init(v):
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	global_position += vel.normalized()*move_speed
+	#global_position += vel.normalized()*move_speed
+	var collision = move_and_collide(vel.normalized()*move_speed)
+	if collision != null:
+		if collision.get_collider().get_collision_layer() > 1:
+			delete()
+
+#func _on_Bullet_body_entered(body):
+func delete():
+	queue_free()
