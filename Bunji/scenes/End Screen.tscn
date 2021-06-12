@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/RestartButton.gd" type="Script" id=1]
+
+[node name="End Screen" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 375.623
+margin_top = 137.396
+margin_right = 550.623
+margin_bottom = 253.396
+text = "CONGLATURATION !!!
+YOU HAVE COMPLETED
+A GREAT GAME.
+AND PROOVED THE JUSTICE
+OF OUR CULTURE.
+NOW GO AND REST OUR
+HEROES!"
+align = 1
+valign = 1
+
+[node name="Button" type="Button" parent="."]
+margin_left = 429.917
+margin_top = 311.357
+margin_right = 441.917
+margin_bottom = 331.357
+text = "Restart!"
+script = ExtResource( 1 )
+[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
