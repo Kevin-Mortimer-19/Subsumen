@@ -1,11 +1,6 @@
-[gd_scene load_steps=100 format=2]
+[gd_scene load_steps=96 format=2]
 
 [ext_resource path="res://tilemap/autotile_tileset.png" type="Texture" id=1]
-[ext_resource path="res://tiles/ColorPlate.tscn" type="PackedScene" id=2]
-[ext_resource path="res://tiles/Plate.tscn" type="PackedScene" id=3]
-[ext_resource path="res://tiles/Button.tscn" type="PackedScene" id=4]
-[ext_resource path="res://tiles/ToggleDoor.tscn" type="PackedScene" id=5]
-[ext_resource path="res://entities/PlayerManager.tscn" type="PackedScene" id=6]
 
 [sub_resource type="ConcavePolygonShape2D" id=1]
 segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 64, 0, 64, 0, 64, 14.8799, 64, 14.8799, 15.0011, 14.8799, 15.0011, 14.8799, 14.8073, 64, 14.8073, 64, 0, 64 )
@@ -56,7 +51,7 @@ points = PoolVector2Array( 64, 64, 48.7826, 64, 48.7826, 15.2484, 15.2928, 15.24
 points = PoolVector2Array( 64, 0, 64, 15.0158, 15.2496, 15.0158, 15.017, 48.9707, 64, 48.9707, 64, 64, 0, 64, 0, 0, 64, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=17]
-points = PoolVector2Array( 0, 0, 14.1748, 0, 15.0515, 48.9707, 64, 48.9707, 64, 64, 0, 64 )
+points = PoolVector2Array( 0, 0, 15.0515, 0, 15.0515, 48.9707, 64, 48.9707, 64, 64, 0, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=18]
 points = PoolVector2Array( 0, 64, 0, 48.7382, 49.1152, 48.9707, 48.8826, 0, 64, 0, 64, 64 )
@@ -1655,48 +1650,8 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 } ]
 53/z_index = 0
 
-[node name="TestStage" type="Node2D"]
-__meta__ = {
-"_edit_vertical_guides_": [  ]
-}
+[node name="Scene" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 94 )
 format = 1
-tile_data = PoolIntArray( 0, 7, 0, 1, 31, 0, 2, 31, 0, 3, 31, 0, 4, 31, 0, 5, 31, 0, 6, 7, 0, 7, 31, 0, 8, 31, 0, 9, 31, 0, 10, 31, 0, 11, 31, 0, 12, 8, 0, 65536, 22, 0, 65537, 24, 0, 65538, 24, 0, 65539, 24, 0, 65540, 24, 0, 65541, 24, 0, 65542, 22, 0, 65543, 24, 0, 65544, 24, 0, 65545, 24, 0, 65546, 24, 0, 65547, 24, 0, 65548, 23, 0, 131072, 22, 0, 131073, 24, 0, 131074, 24, 0, 131075, 24, 0, 131076, 24, 0, 131077, 24, 0, 131078, 24, 0, 131079, 24, 0, 131080, 24, 0, 131081, 24, 0, 131082, 33, 0, 131083, 24, 0, 131084, 23, 0, 196608, 22, 0, 196609, 24, 0, 196610, 24, 0, 196611, 24, 0, 196612, 24, 0, 196613, 24, 0, 196614, 24, 0, 196615, 24, 0, 196616, 24, 0, 196617, 24, 0, 196618, 24, 0, 196619, 24, 0, 196620, 23, 0, 262144, 22, 0, 262145, 24, 0, 262146, 24, 0, 262147, 24, 0, 262148, 24, 0, 262149, 24, 0, 262150, 22, 0, 262151, 24, 0, 262152, 24, 0, 262153, 24, 0, 262154, 24, 0, 262155, 24, 0, 262156, 23, 0, 262160, 26, 0, 262162, 24, 0, 262163, 24, 0, 262164, 24, 0, 262165, 26, 0, 327680, 22, 0, 327681, 24, 0, 327682, 24, 0, 327683, 24, 0, 327684, 24, 0, 327685, 24, 0, 327686, 22, 0, 327687, 24, 0, 327688, 24, 0, 327689, 24, 0, 327690, 24, 0, 327691, 24, 0, 327692, 23, 0, 327698, 44, 0, 327699, 44, 0, 393216, 22, 0, 393217, 24, 0, 393218, 24, 0, 393219, 24, 0, 393220, 24, 0, 393221, 24, 0, 393222, 24, 0, 393223, 24, 0, 393224, 24, 0, 393225, 24, 0, 393226, 24, 0, 393227, 24, 0, 393228, 23, 0, 458752, 22, 0, 458753, 24, 0, 458754, 24, 0, 458755, 24, 0, 458756, 24, 0, 458757, 24, 0, 458758, 24, 0, 458759, 24, 0, 458760, 24, 0, 458761, 24, 0, 458762, 33, 0, 458763, 24, 0, 458764, 23, 0, 524288, 16, 0, 524289, 32, 0, 524290, 32, 0, 524291, 32, 0, 524292, 32, 0, 524293, 32, 0, 524294, 16, 0, 524295, 32, 0, 524296, 32, 0, 524297, 32, 0, 524298, 32, 0, 524299, 32, 0, 524300, 17, 0 )
-
-[node name="ColorPlate" parent="." instance=ExtResource( 2 )]
-position = Vector2( 192, 128 )
-node_path = [ NodePath("../ToggleDoor3"), NodePath("../ToggleDoor4") ]
-character_target = 2
-
-[node name="Plate" parent="." instance=ExtResource( 3 )]
-position = Vector2( 192, 416 )
-node_path = [ NodePath("../ToggleDoor"), NodePath("../ToggleDoor2") ]
-
-[node name="Button" parent="." instance=ExtResource( 4 )]
-position = Vector2( 160, 100 )
-collision_layer = 3
-collision_mask = 3
-node_path = [ NodePath("../ToggleDoor5"), NodePath("../ToggleDoor6") ]
-
-[node name="ToggleDoor" parent="." instance=ExtResource( 5 )]
-position = Vector2( 384, 384 )
-
-[node name="ToggleDoor2" parent="." instance=ExtResource( 5 )]
-position = Vector2( 384, 448 )
-
-[node name="ToggleDoor3" parent="." instance=ExtResource( 5 )]
-position = Vector2( 384, 128 )
-
-[node name="ToggleDoor4" parent="." instance=ExtResource( 5 )]
-position = Vector2( 384, 192 )
-
-[node name="ToggleDoor5" parent="." instance=ExtResource( 5 )]
-position = Vector2( 512, 256 )
-
-[node name="ToggleDoor6" parent="." instance=ExtResource( 5 )]
-position = Vector2( 512, 320 )
-
-[node name="PlayerManager" parent="." instance=ExtResource( 6 )]
-position = Vector2( 64, 320 )
