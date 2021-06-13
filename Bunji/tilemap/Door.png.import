@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/autotile_tileset.png-dd2913eff18b7ebec53751c6b2eeadf5.stex"
+path="res://.import/Door.png-e88c1394503a546ef7e3825f61eca193.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tilemap/autotile_tileset.png"
-dest_files=[ "res://.import/autotile_tileset.png-dd2913eff18b7ebec53751c6b2eeadf5.stex" ]
+source_file="res://tilemap/Door.png"
+dest_files=[ "res://.import/Door.png-e88c1394503a546ef7e3825f61eca193.stex" ]
 
 [params]
 
