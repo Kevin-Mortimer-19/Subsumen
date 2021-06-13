@@ -10,10 +10,10 @@ func _on_PurpleSplit_body_entered(body):
 		var c1 = MAN.instance()
 		c1.get_node("Sprite").texture = RED
 		c1.global_position = global_position - Vector2(64,0)
-		c1.character_number = RED
+		c1.character_number = 2
 		
 		var c2 = MAN.instance()
 		c2.get_node("Sprite").texture = BLUE
 		c2.global_position = global_position + Vector2(64,0)
-		c2.character_number = BLUE
-#		body.queue_free()
+		c2.character_number = 1
+		body.queue_free()
