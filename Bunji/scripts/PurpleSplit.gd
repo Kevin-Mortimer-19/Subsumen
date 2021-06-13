@@ -12,10 +12,12 @@ func _on_PurpleSplit_body_entered(body):
 		c1.get_node("Sprite").texture = RED
 		c1.global_position = global_position + Vector2(-96,-32)
 		c1.character_number = 2
+		c1.add_to_group("Player")
 		
 		var c2 = MAN.instance()
 		body.get_parent().add_child(c2)
 		c2.get_node("Sprite").texture = BLUE
 		c2.global_position = global_position + Vector2(32,-32)
 		c2.character_number = 1
+		c2.add_to_group("Player")
 		body.queue_free()

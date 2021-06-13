@@ -65,7 +65,8 @@ func mov(vel):
 	if ray.is_colliding():
 		if ray.get_collider().get_name().begins_with("PushBlock") && is_red():
 			ray.get_collider().mov(vel)
-		if ray.get_collider().get_name().begins_with("Player"):
+		#if ray.get_collider().get_name().begins_with("Player"):
+		if ray.get_collider().is_in_group("Player"):
 			purple_man(ray.get_collider())
 	if !ray.is_colliding():
 		global_position.x += tile_size*vel.x
