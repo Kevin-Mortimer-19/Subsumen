@@ -26,4 +26,5 @@ margin_right = 441.917
 margin_bottom = 331.357
 text = "Restart!"
 script = ExtResource( 1 )
+
 [connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
