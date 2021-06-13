@@ -297,6 +297,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 0/tile_mode = 0
 0/occluder_offset = Vector2( 0, 0 )
 0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape = SubResource( 1 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
 0/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -319,6 +324,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 1/tile_mode = 0
 1/occluder_offset = Vector2( 0, 0 )
 1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape = SubResource( 3 )
+1/shape_one_way = false
+1/shape_one_way_margin = 1.0
 1/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -341,6 +351,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 2/tile_mode = 0
 2/occluder_offset = Vector2( 0, 0 )
 2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape = SubResource( 21 )
+2/shape_one_way = false
+2/shape_one_way_margin = 1.0
 2/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -363,6 +378,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 3/tile_mode = 0
 3/occluder_offset = Vector2( 0, 0 )
 3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape = SubResource( 38 )
+3/shape_one_way = false
+3/shape_one_way_margin = 1.0
 3/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -391,6 +411,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 4/tile_mode = 0
 4/occluder_offset = Vector2( 0, 0 )
 4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape = SubResource( 59 )
+4/shape_one_way = false
+4/shape_one_way_margin = 1.0
 4/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -419,6 +444,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 5/tile_mode = 0
 5/occluder_offset = Vector2( 0, 0 )
 5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape = SubResource( 82 )
+5/shape_one_way = false
+5/shape_one_way_margin = 1.0
 5/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -435,6 +465,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 6/tile_mode = 0
 6/occluder_offset = Vector2( 0, 0 )
 6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape = SubResource( 89 )
+6/shape_one_way = false
+6/shape_one_way_margin = 1.0
 6/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -451,6 +486,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 7/tile_mode = 0
 7/occluder_offset = Vector2( 0, 0 )
 7/navigation_offset = Vector2( 0, 0 )
+7/shape_offset = Vector2( 0, 0 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+7/shape = SubResource( 90 )
+7/shape_one_way = false
+7/shape_one_way_margin = 1.0
 7/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -467,6 +507,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 8/tile_mode = 0
 8/occluder_offset = Vector2( 0, 0 )
 8/navigation_offset = Vector2( 0, 0 )
+8/shape_offset = Vector2( 0, 0 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+8/shape = SubResource( 91 )
+8/shape_one_way = false
+8/shape_one_way_margin = 1.0
 8/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -483,6 +528,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 9/tile_mode = 0
 9/occluder_offset = Vector2( 0, 0 )
 9/navigation_offset = Vector2( 0, 0 )
+9/shape_offset = Vector2( 0, 0 )
+9/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+9/shape = SubResource( 92 )
+9/shape_one_way = false
+9/shape_one_way_margin = 1.0
 9/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -505,6 +555,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 10/tile_mode = 0
 10/occluder_offset = Vector2( 0, 0 )
 10/navigation_offset = Vector2( 0, 0 )
+10/shape_offset = Vector2( 0, 0 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+10/shape = SubResource( 5 )
+10/shape_one_way = false
+10/shape_one_way_margin = 1.0
 10/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -527,6 +582,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 11/tile_mode = 0
 11/occluder_offset = Vector2( 0, 0 )
 11/navigation_offset = Vector2( 0, 0 )
+11/shape_offset = Vector2( 0, 0 )
+11/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+11/shape = SubResource( 7 )
+11/shape_one_way = false
+11/shape_one_way_margin = 1.0
 11/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -549,6 +609,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 12/tile_mode = 0
 12/occluder_offset = Vector2( 0, 0 )
 12/navigation_offset = Vector2( 0, 0 )
+12/shape_offset = Vector2( 0, 0 )
+12/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+12/shape = SubResource( 9 )
+12/shape_one_way = false
+12/shape_one_way_margin = 1.0
 12/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -577,6 +642,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 13/tile_mode = 0
 13/occluder_offset = Vector2( 0, 0 )
 13/navigation_offset = Vector2( 0, 0 )
+13/shape_offset = Vector2( 0, 0 )
+13/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+13/shape = SubResource( 12 )
+13/shape_one_way = false
+13/shape_one_way_margin = 1.0
 13/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -605,6 +675,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 14/tile_mode = 0
 14/occluder_offset = Vector2( 0, 0 )
 14/navigation_offset = Vector2( 0, 0 )
+14/shape_offset = Vector2( 0, 0 )
+14/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+14/shape = SubResource( 15 )
+14/shape_one_way = false
+14/shape_one_way_margin = 1.0
 14/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -621,6 +696,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 15/tile_mode = 0
 15/occluder_offset = Vector2( 0, 0 )
 15/navigation_offset = Vector2( 0, 0 )
+15/shape_offset = Vector2( 0, 0 )
+15/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+15/shape = SubResource( 16 )
+15/shape_one_way = false
+15/shape_one_way_margin = 1.0
 15/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -637,6 +717,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 16/tile_mode = 0
 16/occluder_offset = Vector2( 0, 0 )
 16/navigation_offset = Vector2( 0, 0 )
+16/shape_offset = Vector2( 0, 0 )
+16/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+16/shape = SubResource( 17 )
+16/shape_one_way = false
+16/shape_one_way_margin = 1.0
 16/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -653,6 +738,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 17/tile_mode = 0
 17/occluder_offset = Vector2( 0, 0 )
 17/navigation_offset = Vector2( 0, 0 )
+17/shape_offset = Vector2( 0, 0 )
+17/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+17/shape = SubResource( 18 )
+17/shape_one_way = false
+17/shape_one_way_margin = 1.0
 17/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -669,6 +759,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 18/tile_mode = 0
 18/occluder_offset = Vector2( 0, 0 )
 18/navigation_offset = Vector2( 0, 0 )
+18/shape_offset = Vector2( 0, 0 )
+18/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+18/shape = SubResource( 19 )
+18/shape_one_way = false
+18/shape_one_way_margin = 1.0
 18/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -685,6 +780,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 19/tile_mode = 0
 19/occluder_offset = Vector2( 0, 0 )
 19/navigation_offset = Vector2( 0, 0 )
+19/shape_offset = Vector2( 0, 0 )
+19/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+19/shape = SubResource( 20 )
+19/shape_one_way = false
+19/shape_one_way_margin = 1.0
 19/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -701,6 +801,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 20/tile_mode = 0
 20/occluder_offset = Vector2( 0, 0 )
 20/navigation_offset = Vector2( 0, 0 )
+20/shape_offset = Vector2( 0, 0 )
+20/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+20/shape = SubResource( 23 )
+20/shape_one_way = false
+20/shape_one_way_margin = 1.0
 20/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -723,6 +828,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 21/tile_mode = 0
 21/occluder_offset = Vector2( 0, 0 )
 21/navigation_offset = Vector2( 0, 0 )
+21/shape_offset = Vector2( 0, 0 )
+21/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+21/shape = SubResource( 25 )
+21/shape_one_way = false
+21/shape_one_way_margin = 1.0
 21/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -745,6 +855,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 22/tile_mode = 0
 22/occluder_offset = Vector2( 0, 0 )
 22/navigation_offset = Vector2( 0, 0 )
+22/shape_offset = Vector2( 0, 0 )
+22/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+22/shape = SubResource( 27 )
+22/shape_one_way = false
+22/shape_one_way_margin = 1.0
 22/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -761,6 +876,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 23/tile_mode = 0
 23/occluder_offset = Vector2( 0, 0 )
 23/navigation_offset = Vector2( 0, 0 )
+23/shape_offset = Vector2( 0, 0 )
+23/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+23/shape = SubResource( 28 )
+23/shape_one_way = false
+23/shape_one_way_margin = 1.0
 23/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -777,6 +897,10 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 24/tile_mode = 0
 24/occluder_offset = Vector2( 0, 0 )
 24/navigation_offset = Vector2( 0, 0 )
+24/shape_offset = Vector2( 0, 0 )
+24/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+24/shape_one_way = false
+24/shape_one_way_margin = 0.0
 24/shapes = [  ]
 24/z_index = 0
 25/name = "autotile_tileset.png 25"
@@ -787,6 +911,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 25/tile_mode = 0
 25/occluder_offset = Vector2( 0, 0 )
 25/navigation_offset = Vector2( 0, 0 )
+25/shape_offset = Vector2( 0, 0 )
+25/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+25/shape = SubResource( 29 )
+25/shape_one_way = false
+25/shape_one_way_margin = 1.0
 25/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -821,6 +950,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 26/tile_mode = 0
 26/occluder_offset = Vector2( 0, 0 )
 26/navigation_offset = Vector2( 0, 0 )
+26/shape_offset = Vector2( 0, 0 )
+26/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+26/shape = SubResource( 33 )
+26/shape_one_way = false
+26/shape_one_way_margin = 1.0
 26/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -837,6 +971,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 27/tile_mode = 0
 27/occluder_offset = Vector2( 0, 0 )
 27/navigation_offset = Vector2( 0, 0 )
+27/shape_offset = Vector2( 0, 0 )
+27/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+27/shape = SubResource( 34 )
+27/shape_one_way = false
+27/shape_one_way_margin = 1.0
 27/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -853,6 +992,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 28/tile_mode = 0
 28/occluder_offset = Vector2( 0, 0 )
 28/navigation_offset = Vector2( 0, 0 )
+28/shape_offset = Vector2( 0, 0 )
+28/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+28/shape = SubResource( 35 )
+28/shape_one_way = false
+28/shape_one_way_margin = 1.0
 28/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -869,6 +1013,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 29/tile_mode = 0
 29/occluder_offset = Vector2( 0, 0 )
 29/navigation_offset = Vector2( 0, 0 )
+29/shape_offset = Vector2( 0, 0 )
+29/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+29/shape = SubResource( 36 )
+29/shape_one_way = false
+29/shape_one_way_margin = 1.0
 29/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -891,6 +1040,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 30/tile_mode = 0
 30/occluder_offset = Vector2( 0, 0 )
 30/navigation_offset = Vector2( 0, 0 )
+30/shape_offset = Vector2( 0, 0 )
+30/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+30/shape = SubResource( 41 )
+30/shape_one_way = false
+30/shape_one_way_margin = 1.0
 30/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -913,6 +1067,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 31/tile_mode = 0
 31/occluder_offset = Vector2( 0, 0 )
 31/navigation_offset = Vector2( 0, 0 )
+31/shape_offset = Vector2( 0, 0 )
+31/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+31/shape = SubResource( 43 )
+31/shape_one_way = false
+31/shape_one_way_margin = 1.0
 31/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -929,6 +1088,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 32/tile_mode = 0
 32/occluder_offset = Vector2( 0, 0 )
 32/navigation_offset = Vector2( 0, 0 )
+32/shape_offset = Vector2( 0, 0 )
+32/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+32/shape = SubResource( 44 )
+32/shape_one_way = false
+32/shape_one_way_margin = 1.0
 32/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -945,6 +1109,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 33/tile_mode = 0
 33/occluder_offset = Vector2( 0, 0 )
 33/navigation_offset = Vector2( 0, 0 )
+33/shape_offset = Vector2( 0, 0 )
+33/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+33/shape = SubResource( 45 )
+33/shape_one_way = false
+33/shape_one_way_margin = 1.0
 33/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -967,6 +1136,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 34/tile_mode = 0
 34/occluder_offset = Vector2( 0, 0 )
 34/navigation_offset = Vector2( 0, 0 )
+34/shape_offset = Vector2( 0, 0 )
+34/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+34/shape = SubResource( 47 )
+34/shape_one_way = false
+34/shape_one_way_margin = 1.0
 34/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -983,6 +1157,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 35/tile_mode = 0
 35/occluder_offset = Vector2( 0, 0 )
 35/navigation_offset = Vector2( 0, 0 )
+35/shape_offset = Vector2( 0, 0 )
+35/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+35/shape = SubResource( 48 )
+35/shape_one_way = false
+35/shape_one_way_margin = 1.0
 35/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -999,6 +1178,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 36/tile_mode = 0
 36/occluder_offset = Vector2( 0, 0 )
 36/navigation_offset = Vector2( 0, 0 )
+36/shape_offset = Vector2( 0, 0 )
+36/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+36/shape = SubResource( 49 )
+36/shape_one_way = false
+36/shape_one_way_margin = 1.0
 36/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1027,6 +1211,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 37/tile_mode = 0
 37/occluder_offset = Vector2( 0, 0 )
 37/navigation_offset = Vector2( 0, 0 )
+37/shape_offset = Vector2( 0, 0 )
+37/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+37/shape = SubResource( 52 )
+37/shape_one_way = false
+37/shape_one_way_margin = 1.0
 37/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1055,6 +1244,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 38/tile_mode = 0
 38/occluder_offset = Vector2( 0, 0 )
 38/navigation_offset = Vector2( 0, 0 )
+38/shape_offset = Vector2( 0, 0 )
+38/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+38/shape = SubResource( 55 )
+38/shape_one_way = false
+38/shape_one_way_margin = 1.0
 38/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1077,6 +1271,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 39/tile_mode = 0
 39/occluder_offset = Vector2( 0, 0 )
 39/navigation_offset = Vector2( 0, 0 )
+39/shape_offset = Vector2( 0, 0 )
+39/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+39/shape = SubResource( 57 )
+39/shape_one_way = false
+39/shape_one_way_margin = 1.0
 39/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1099,6 +1298,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 40/tile_mode = 0
 40/occluder_offset = Vector2( 0, 0 )
 40/navigation_offset = Vector2( 0, 0 )
+40/shape_offset = Vector2( 0, 0 )
+40/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+40/shape = SubResource( 62 )
+40/shape_one_way = false
+40/shape_one_way_margin = 1.0
 40/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1121,6 +1325,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 41/tile_mode = 0
 41/occluder_offset = Vector2( 0, 0 )
 41/navigation_offset = Vector2( 0, 0 )
+41/shape_offset = Vector2( 0, 0 )
+41/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+41/shape = SubResource( 64 )
+41/shape_one_way = false
+41/shape_one_way_margin = 1.0
 41/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1143,6 +1352,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 42/tile_mode = 0
 42/occluder_offset = Vector2( 0, 0 )
 42/navigation_offset = Vector2( 0, 0 )
+42/shape_offset = Vector2( 0, 0 )
+42/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+42/shape = SubResource( 66 )
+42/shape_one_way = false
+42/shape_one_way_margin = 1.0
 42/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1165,6 +1379,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 43/tile_mode = 0
 43/occluder_offset = Vector2( 0, 0 )
 43/navigation_offset = Vector2( 0, 0 )
+43/shape_offset = Vector2( 0, 0 )
+43/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+43/shape = SubResource( 68 )
+43/shape_one_way = false
+43/shape_one_way_margin = 1.0
 43/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1181,6 +1400,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 44/tile_mode = 0
 44/occluder_offset = Vector2( 0, 0 )
 44/navigation_offset = Vector2( 0, 0 )
+44/shape_offset = Vector2( 0, 0 )
+44/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+44/shape = SubResource( 69 )
+44/shape_one_way = false
+44/shape_one_way_margin = 1.0
 44/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1197,6 +1421,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 45/tile_mode = 0
 45/occluder_offset = Vector2( 0, 0 )
 45/navigation_offset = Vector2( 0, 0 )
+45/shape_offset = Vector2( 0, 0 )
+45/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+45/shape = SubResource( 70 )
+45/shape_one_way = false
+45/shape_one_way_margin = 1.0
 45/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1225,6 +1454,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 46/tile_mode = 0
 46/occluder_offset = Vector2( 0, 0 )
 46/navigation_offset = Vector2( 0, 0 )
+46/shape_offset = Vector2( 0, 0 )
+46/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+46/shape = SubResource( 73 )
+46/shape_one_way = false
+46/shape_one_way_margin = 1.0
 46/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1253,6 +1487,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 47/tile_mode = 0
 47/occluder_offset = Vector2( 0, 0 )
 47/navigation_offset = Vector2( 0, 0 )
+47/shape_offset = Vector2( 0, 0 )
+47/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+47/shape = SubResource( 76 )
+47/shape_one_way = false
+47/shape_one_way_margin = 1.0
 47/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1275,6 +1514,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 48/tile_mode = 0
 48/occluder_offset = Vector2( 0, 0 )
 48/navigation_offset = Vector2( 0, 0 )
+48/shape_offset = Vector2( 0, 0 )
+48/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+48/shape = SubResource( 78 )
+48/shape_one_way = false
+48/shape_one_way_margin = 1.0
 48/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1297,6 +1541,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 49/tile_mode = 0
 49/occluder_offset = Vector2( 0, 0 )
 49/navigation_offset = Vector2( 0, 0 )
+49/shape_offset = Vector2( 0, 0 )
+49/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+49/shape = SubResource( 80 )
+49/shape_one_way = false
+49/shape_one_way_margin = 1.0
 49/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1319,6 +1568,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 50/tile_mode = 0
 50/occluder_offset = Vector2( 0, 0 )
 50/navigation_offset = Vector2( 0, 0 )
+50/shape_offset = Vector2( 0, 0 )
+50/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+50/shape = SubResource( 83 )
+50/shape_one_way = false
+50/shape_one_way_margin = 1.0
 50/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1341,6 +1595,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 51/tile_mode = 0
 51/occluder_offset = Vector2( 0, 0 )
 51/navigation_offset = Vector2( 0, 0 )
+51/shape_offset = Vector2( 0, 0 )
+51/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+51/shape = SubResource( 85 )
+51/shape_one_way = false
+51/shape_one_way_margin = 1.0
 51/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1363,6 +1622,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 52/tile_mode = 0
 52/occluder_offset = Vector2( 0, 0 )
 52/navigation_offset = Vector2( 0, 0 )
+52/shape_offset = Vector2( 0, 0 )
+52/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+52/shape = SubResource( 87 )
+52/shape_one_way = false
+52/shape_one_way_margin = 1.0
 52/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1379,6 +1643,11 @@ segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 14.9164, 0, 14.9164, 0, 14.5145,
 53/tile_mode = 0
 53/occluder_offset = Vector2( 0, 0 )
 53/navigation_offset = Vector2( 0, 0 )
+53/shape_offset = Vector2( 0, 0 )
+53/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+53/shape = SubResource( 88 )
+53/shape_one_way = false
+53/shape_one_way_margin = 1.0
 53/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -1398,7 +1667,7 @@ tile_set = SubResource( 94 )
 collision_layer = 7
 collision_mask = 7
 format = 1
-tile_data = PoolIntArray( 0, 7, 0, 1, 31, 0, 2, 31, 0, 3, 31, 0, 4, 31, 0, 5, 31, 0, 6, 7, 0, 7, 31, 0, 8, 31, 0, 9, 31, 0, 10, 31, 0, 11, 31, 0, 12, 8, 0, 65536, 22, 0, 65537, 24, 0, 65538, 24, 0, 65539, 24, 0, 65540, 24, 0, 65541, 24, 0, 65542, 22, 0, 65543, 24, 0, 65544, 24, 0, 65545, 24, 0, 65546, 24, 0, 65547, 24, 0, 65548, 23, 0, 131072, 22, 0, 131073, 24, 0, 131074, 24, 0, 131075, 24, 0, 131076, 24, 0, 131077, 24, 0, 131078, 24, 0, 131079, 24, 0, 131080, 24, 0, 131081, 24, 0, 131082, 33, 0, 131083, 24, 0, 131084, 23, 0, 196608, 22, 0, 196609, 24, 0, 196610, 24, 0, 196611, 24, 0, 196612, 24, 0, 196613, 24, 0, 196614, 24, 0, 196615, 24, 0, 196616, 24, 0, 196617, 24, 0, 196618, 24, 0, 196619, 24, 0, 196620, 23, 0, 262144, 22, 0, 262145, 24, 0, 262146, 24, 0, 262147, 24, 0, 262148, 24, 0, 262149, 24, 0, 262150, 22, 0, 262151, 24, 0, 262152, 24, 0, 262153, 24, 0, 262154, 24, 0, 262155, 24, 0, 262156, 23, 0, 262160, 26, 0, 262162, 24, 0, 262163, 24, 0, 262164, 24, 0, 262165, 26, 0, 327680, 22, 0, 327681, 24, 0, 327682, 24, 0, 327683, 24, 0, 327684, 24, 0, 327685, 24, 0, 327686, 22, 0, 327687, 24, 0, 327688, 24, 0, 327689, 24, 0, 327690, 24, 0, 327691, 24, 0, 327692, 23, 0, 327698, 44, 0, 327699, 44, 0, 393216, 22, 0, 393217, 24, 0, 393218, 24, 0, 393219, 24, 0, 393220, 24, 0, 393221, 24, 0, 393222, 24, 0, 393223, 24, 0, 393224, 24, 0, 393225, 24, 0, 393226, 24, 0, 393227, 24, 0, 393228, 23, 0, 458752, 22, 0, 458753, 24, 0, 458754, 24, 0, 458755, 24, 0, 458756, 24, 0, 458757, 24, 0, 458758, 24, 0, 458759, 24, 0, 458760, 24, 0, 458761, 24, 0, 458762, 33, 0, 458763, 24, 0, 458764, 23, 0, 524288, 16, 0, 524289, 32, 0, 524290, 32, 0, 524291, 32, 0, 524292, 32, 0, 524293, 32, 0, 524294, 16, 0, 524295, 32, 0, 524296, 32, 0, 524297, 32, 0, 524298, 32, 0, 524299, 32, 0, 524300, 17, 0 )
+tile_data = PoolIntArray( -1, 18, 0, -65536, 32, 0, -65535, 32, 0, -65534, 32, 0, -65533, 32, 0, -65532, 32, 0, -65531, 32, 0, -65530, 20, 0, -65529, 32, 0, -65528, 32, 0, -65527, 32, 0, -65526, 32, 0, -65525, 32, 0, -65524, 32, 0, -65523, 19, 0, 65535, 23, 0, 6, 11, 0, 13, 22, 0, 131071, 23, 0, 65537, 24, 0, 65538, 24, 0, 65539, 24, 0, 65540, 24, 0, 65541, 24, 0, 65542, 6, 0, 65543, 24, 0, 65544, 24, 0, 65545, 24, 0, 65546, 24, 0, 65547, 24, 0, 65549, 22, 0, 196607, 23, 0, 131073, 24, 0, 131074, 24, 0, 131075, 24, 0, 131076, 24, 0, 131077, 24, 0, 131078, 24, 0, 131079, 24, 0, 131080, 24, 0, 131081, 24, 0, 131082, 33, 0, 131083, 24, 0, 131085, 22, 0, 262143, 23, 0, 196609, 24, 0, 196610, 24, 0, 196611, 24, 0, 196612, 24, 0, 196613, 24, 0, 196614, 24, 0, 196615, 24, 0, 196616, 24, 0, 196617, 24, 0, 196618, 24, 0, 196619, 24, 0, 196621, 22, 0, 196628, 23, 0, 327679, 23, 0, 262145, 24, 0, 262146, 24, 0, 262147, 24, 0, 262148, 24, 0, 262149, 24, 0, 262150, 14, 0, 262151, 24, 0, 262152, 24, 0, 262153, 24, 0, 262154, 24, 0, 262155, 24, 0, 262157, 22, 0, 262160, 26, 0, 262162, 24, 0, 262163, 24, 0, 262164, 24, 0, 262165, 26, 0, 393215, 23, 0, 327681, 24, 0, 327682, 24, 0, 327683, 24, 0, 327684, 24, 0, 327685, 24, 0, 327686, 6, 0, 327687, 24, 0, 327688, 24, 0, 327689, 24, 0, 327690, 24, 0, 327691, 24, 0, 327693, 22, 0, 327698, 44, 0, 327699, 44, 0, 458751, 23, 0, 393217, 24, 0, 393218, 24, 0, 393219, 24, 0, 393220, 24, 0, 393221, 24, 0, 393222, 24, 0, 393223, 24, 0, 393224, 24, 0, 393225, 24, 0, 393226, 24, 0, 393227, 24, 0, 393229, 22, 0, 524287, 23, 0, 458753, 24, 0, 458754, 24, 0, 458755, 24, 0, 458756, 24, 0, 458757, 24, 0, 458758, 24, 0, 458759, 24, 0, 458760, 24, 0, 458761, 24, 0, 458762, 33, 0, 458763, 24, 0, 458765, 22, 0, 589823, 23, 0, 524294, 14, 0, 524301, 22, 0, 655359, 27, 0, 589824, 31, 0, 589825, 31, 0, 589826, 31, 0, 589827, 31, 0, 589828, 31, 0, 589829, 31, 0, 589830, 21, 0, 589831, 31, 0, 589832, 31, 0, 589833, 31, 0, 589834, 31, 0, 589835, 31, 0, 589836, 31, 0, 589837, 28, 0 )
 
 [node name="ColorPlate" parent="." instance=ExtResource( 2 )]
 position = Vector2( 192, 128 )
