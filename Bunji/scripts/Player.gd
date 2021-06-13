@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-enum {RED=1, BLUE=2}
+enum {BLUE=1, RED=2}
 export var character_number = RED; # 1 for c1, 2 for c2
 export var move_speed = 200;
 export(Texture) var sprite;
@@ -55,6 +55,9 @@ func _physics_process(delta):
 func mov(vel):
 	ray.cast_to = vel*tile_size
 	ray.force_raycast_update()
+	if ray.is_colliding():
+		if ray.get_collider().get_name().begins_with("PushBlock") && is_red():
+			ray.get_collider().mov(vel)
 	if !ray.is_colliding():
 		global_position.x += tile_size*vel.x
 		global_position.y += tile_size*vel.y
@@ -76,10 +79,10 @@ func fire():
 	b.init(v)
 
 func is_red():
-	return RED if (character_number == 1) else BLUE;
+	return true if (character_number == 2) else false;
 
 func is_blue():
-	return true if (character_number == 2) else false;
+	return true if (character_number == 1) else false;
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
