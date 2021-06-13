@@ -1,8 +1,9 @@
 extends KinematicBody2D
 
-
-export var character_number = 1; # 1 for c1, 2 for c2
+enum {RED=1, BLUE=2}
+export var character_number = RED; # 1 for c1, 2 for c2
 export var move_speed = 200;
+export(Texture) var sprite;
 
 var vel = Vector2();
 
@@ -12,7 +13,8 @@ var b_cooldown = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	$Sprite.texture = sprite;
+	$Sprite.scale = Vector2(4, 4);
 
 func _physics_process(delta):
 	vel = Vector2();
@@ -46,6 +48,12 @@ func fire(v):
 	get_parent().add_child(b)
 	b.global_position = global_position
 	b.init(v)
+
+func is_red():
+	return RED if (character_number == 1) else BLUE;
+
+func is_blue():
+	return true if (character_number == 2) else false;
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
