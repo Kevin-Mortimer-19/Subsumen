@@ -1,15 +1,16 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://tilemap/Wall.tres" type="TileSet" id=1]
 [ext_resource path="res://tiles/ToggleDoor.tscn" type="PackedScene" id=2]
 [ext_resource path="res://tiles/Plate.tscn" type="PackedScene" id=3]
 [ext_resource path="res://tiles/ColorPlate.tscn" type="PackedScene" id=4]
-[ext_resource path="res://tiles/Goal.tscn" type="PackedScene" id=5]
-[ext_resource path="res://tiles/PushBlock.tscn" type="PackedScene" id=6]
-[ext_resource path="res://entities/Player.tscn" type="PackedScene" id=7]
-[ext_resource path="res://sprites/C1.png" type="Texture" id=8]
-[ext_resource path="res://sprites/C2.png" type="Texture" id=9]
-[ext_resource path="res://tiles/PurpleSplit.tscn" type="PackedScene" id=10]
+[ext_resource path="res://sprites/Plate3.png" type="Texture" id=5]
+[ext_resource path="res://tiles/Goal.tscn" type="PackedScene" id=6]
+[ext_resource path="res://tiles/PushBlock.tscn" type="PackedScene" id=7]
+[ext_resource path="res://entities/Player.tscn" type="PackedScene" id=8]
+[ext_resource path="res://sprites/C1.png" type="Texture" id=9]
+[ext_resource path="res://sprites/C2.png" type="Texture" id=10]
+[ext_resource path="res://tiles/PurpleSplit.tscn" type="PackedScene" id=11]
 
 [node name="Node2D" type="Node2D"]
 
@@ -32,32 +33,33 @@ node_path = [ NodePath("../ToggleDoor"), NodePath("../ToggleDoor") ]
 position = Vector2( 320.657, 319.724 )
 node_path = [ NodePath("../ToggleDoor3"), NodePath("../ToggleDoor3") ]
 character_target = 2
+image = ExtResource( 5 )
 
 [node name="ToggleDoor3" parent="." instance=ExtResource( 2 )]
 position = Vector2( 449.682, 255.816 )
 rotation = 1.5708
 
-[node name="Goal" parent="." instance=ExtResource( 5 )]
+[node name="Goal" parent="." instance=ExtResource( 6 )]
 position = Vector2( 928, 96 )
 next_scene = "res://scenes/Stage 2.tscn"
 
-[node name="PushBlock" parent="." instance=ExtResource( 6 )]
+[node name="PushBlock" parent="." instance=ExtResource( 7 )]
 position = Vector2( 800, 416 )
 
 [node name="Player" parent="." groups=[
 "Player",
-] instance=ExtResource( 7 )]
+] instance=ExtResource( 8 )]
 position = Vector2( 128, 64 )
 character_number = 1
-sprite = ExtResource( 8 )
+sprite = ExtResource( 9 )
 
 [node name="Player2" parent="." groups=[
 "Player",
-] instance=ExtResource( 7 )]
+] instance=ExtResource( 8 )]
 position = Vector2( 384.657, 128 )
-sprite = ExtResource( 9 )
+sprite = ExtResource( 10 )
 
-[node name="PurpleSplit" parent="." instance=ExtResource( 10 )]
+[node name="PurpleSplit" parent="." instance=ExtResource( 11 )]
 position = Vector2( 608, 416 )
 [connection signal="input_event" from="ToggleDoor" to="Plate" method="_on_ToggleDoor_input_event"]
 [connection signal="body_entered" from="PurpleSplit" to="PurpleSplit" method="_on_PurpleSplit_body_entered"]
