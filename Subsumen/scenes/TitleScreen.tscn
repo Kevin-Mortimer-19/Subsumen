@@ -51,4 +51,5 @@ margin_bottom = 511.0
 text = "To subsume one man into another and create the Purple Man,
 simply have one man walk into the other, and they will 
 become one."
+
 [connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
