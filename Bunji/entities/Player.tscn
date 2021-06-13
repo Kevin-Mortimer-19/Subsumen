@@ -21,3 +21,4 @@ position = Vector2( 32, 32 )
 
 [node name="ShlorpMaster" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 2 )
+volume_db = -25.0
