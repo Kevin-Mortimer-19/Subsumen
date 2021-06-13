@@ -93,6 +93,7 @@ func purple_man(not_purple_man):
 	global_position = not_purple_man.global_position
 	character_number = PURPLE
 	not_purple_man.queue_free()
+	get_node("ShlorpMaster").play()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
