@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-enum {BLUE=1, RED=2, PURPLE=3}
+enum {RED=1, BLUE=2, PURPLE=3}
 export var character_number = RED; # 1 for c1, 2 for c2
 export var move_speed = 200;
 export(Texture) var sprite;
@@ -24,7 +24,7 @@ func _ready():
 
 func _physics_process(delta):
 	vel = Vector2(0,0);
-	if is_blue():
+	if is_red():
 		if Input.is_action_just_pressed("move_c2_down"):
 			vel.y += 1;
 			input_set = [0,1,0,0]
@@ -37,7 +37,7 @@ func _physics_process(delta):
 		if Input.is_action_just_pressed("move_c2_right"):
 			vel.x += 1;
 			input_set = [0,0,0,1]
-	if is_red(): 
+	if is_blue(): 
 		if Input.is_action_just_pressed("move_c1_down"):
 			vel.y += 1;
 			input_set = [0,1,0,0]
@@ -53,6 +53,7 @@ func _physics_process(delta):
 		if Input.is_action_just_pressed("fire") && b_cooldown == 0:
 			fire();
 			b_cooldown = 10;
+
 
 	mov(vel)
 	#move_and_slide( (vel.normalized()*move_speed), Vector2.UP);
@@ -89,10 +90,10 @@ func fire():
 	b.init(v)
 
 func is_red():
-	return true if (character_number != 1) else false;
+	return true if (character_number != 2) else false;
 
 func is_blue():
-	return true if (character_number != 2) else false;
+	return true if (character_number != 1) else false;
 
 func purple_man(not_purple_man):
 	get_node("Sprite").texture = PURPLE_MAN

@@ -1,4 +1,4 @@
-[gd_scene load_steps=104 format=2]
+[gd_scene load_steps=105 format=2]
 
 [ext_resource path="res://tilemap/autotile_tileset.png" type="Texture" id=1]
 [ext_resource path="res://tiles/ColorPlate.tscn" type="PackedScene" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://entities/Player.tscn" type="PackedScene" id=7]
 [ext_resource path="res://sprites/C1.png" type="Texture" id=8]
 [ext_resource path="res://sprites/C2.png" type="Texture" id=9]
+[ext_resource path="res://tiles/PurpleSplit.tscn" type="PackedScene" id=10]
 
 [sub_resource type="ConcavePolygonShape2D" id=1]
 segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 64, 0, 64, 0, 64, 14.8799, 64, 14.8799, 15.0011, 14.8799, 15.0011, 14.8799, 14.8073, 64, 14.8073, 64, 0, 64 )
@@ -1396,12 +1397,12 @@ tile_set = SubResource( 94 )
 collision_layer = 7
 collision_mask = 7
 format = 1
-tile_data = PoolIntArray( 0, 0, 0, 1, 2, 0, 2, 2, 0, 3, 2, 0, 4, 2, 0, 5, 2, 0, 6, 2, 0, 7, 2, 0, 8, 2, 0, 9, 2, 0, 10, 2, 0, 11, 2, 0, 12, 2, 0, 13, 2, 0, 14, 2, 0, 15, 1, 0, 65536, 11, 0, 65537, 15, 0, 65538, 2, 0, 65539, 2, 0, 65551, 11, 0, 131072, 11, 0, 131079, 15, 0, 131080, 2, 0, 131081, 2, 0, 131082, 2, 0, 131083, 2, 0, 131084, 40, 0, 131085, 8, 0, 131087, 11, 0, 196608, 11, 0, 196620, 22, 0, 196621, 23, 0, 196623, 11, 0, 262144, 11, 0, 262151, 14, 0, 262154, 14, 0, 262156, 22, 0, 262157, 23, 0, 262159, 11, 0, 327680, 11, 0, 327687, 11, 0, 327690, 11, 0, 327692, 16, 0, 327693, 17, 0, 327695, 11, 0, 393216, 11, 0, 393223, 11, 0, 393226, 11, 0, 393231, 11, 0, 458752, 11, 0, 458759, 11, 0, 458762, 11, 0, 458767, 11, 0, 524288, 9, 0, 524289, 2, 0, 524290, 2, 0, 524291, 2, 0, 524292, 2, 0, 524293, 2, 0, 524294, 2, 0, 524295, 4, 0, 524296, 2, 0, 524297, 2, 0, 524298, 4, 0, 524299, 2, 0, 524300, 2, 0, 524301, 2, 0, 524302, 2, 0, 524303, 10, 0 )
+tile_data = PoolIntArray( 0, 0, 0, 1, 2, 0, 2, 2, 0, 3, 2, 0, 4, 2, 0, 5, 2, 0, 6, 2, 0, 7, 2, 0, 8, 2, 0, 9, 2, 0, 10, 2, 0, 11, 2, 0, 12, 2, 0, 13, 2, 0, 14, 2, 0, 15, 1, 0, 65536, 11, 0, 65537, 15, 0, 65538, 2, 0, 65539, 2, 0, 65551, 11, 0, 131072, 11, 0, 131079, 15, 0, 131080, 2, 0, 131081, 2, 0, 131082, 2, 0, 131083, 2, 0, 131084, 40, 0, 131085, 8, 0, 131087, 11, 0, 196608, 11, 0, 196620, 22, 0, 196621, 23, 0, 196623, 11, 0, 262144, 11, 0, 262151, 14, 0, 262154, 14, 0, 262156, 16, 0, 262157, 17, 0, 262159, 11, 0, 327680, 11, 0, 327687, 11, 0, 327690, 11, 0, 327695, 11, 0, 393216, 11, 0, 393223, 11, 0, 393226, 11, 0, 393231, 11, 0, 458752, 11, 0, 458759, 11, 0, 458762, 11, 0, 458767, 11, 0, 524288, 9, 0, 524289, 2, 0, 524290, 2, 0, 524291, 2, 0, 524292, 2, 0, 524293, 2, 0, 524294, 2, 0, 524295, 4, 0, 524296, 2, 0, 524297, 2, 0, 524298, 4, 0, 524299, 2, 0, 524300, 2, 0, 524301, 2, 0, 524302, 2, 0, 524303, 10, 0 )
 
 [node name="ColorPlate" parent="." instance=ExtResource( 2 )]
 position = Vector2( 512, 448 )
 node_path = [ NodePath("../ToggleDoor2") ]
-character_target = 2
+character_target = 1
 image = ExtResource( 3 )
 
 [node name="ToggleDoor2" parent="." instance=ExtResource( 4 )]
@@ -1433,11 +1434,15 @@ next_scene = "res://scenes/End Screen.tscn"
 "Player",
 ] instance=ExtResource( 7 )]
 position = Vector2( 704, 448 )
-character_number = 1
 sprite = ExtResource( 8 )
 
 [node name="Player2" parent="." groups=[
 "Player",
 ] instance=ExtResource( 7 )]
 position = Vector2( 832, 448 )
+character_number = 2
 sprite = ExtResource( 9 )
+
+[node name="PurpleSplit" parent="." instance=ExtResource( 10 )]
+position = Vector2( 800, 416 )
+[connection signal="body_entered" from="PurpleSplit" to="PurpleSplit" method="_on_PurpleSplit_body_entered"]
