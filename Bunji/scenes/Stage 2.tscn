@@ -1,10 +1,13 @@
-[gd_scene load_steps=100 format=2]
+[gd_scene load_steps=103 format=2]
 
 [ext_resource path="res://tilemap/autotile_tileset.png" type="Texture" id=1]
-[ext_resource path="res://entities/PlayerManager.tscn" type="PackedScene" id=2]
+[ext_resource path="res://sprites/C1.png" type="Texture" id=2]
 [ext_resource path="res://tiles/Button.tscn" type="PackedScene" id=3]
 [ext_resource path="res://tiles/ColorPlate.tscn" type="PackedScene" id=4]
 [ext_resource path="res://tiles/ToggleDoor.tscn" type="PackedScene" id=5]
+[ext_resource path="res://entities/Player.tscn" type="PackedScene" id=6]
+[ext_resource path="res://sprites/C2.png" type="Texture" id=7]
+[ext_resource path="res://tiles/Goal.tscn" type="PackedScene" id=8]
 
 [sub_resource type="ConcavePolygonShape2D" id=1]
 segments = PoolVector2Array( 0, 64, 0, 0, 0, 0, 64, 0, 64, 0, 64, 14.8799, 64, 14.8799, 15.0011, 14.8799, 15.0011, 14.8799, 14.8073, 64, 14.8073, 64, 0, 64 )
@@ -1663,33 +1666,45 @@ collision_mask = 7
 format = 1
 tile_data = PoolIntArray( 0, 0, 0, 1, 2, 0, 2, 2, 0, 3, 2, 0, 4, 2, 0, 5, 2, 0, 6, 2, 0, 7, 2, 0, 8, 2, 0, 9, 2, 0, 10, 2, 0, 11, 2, 0, 12, 2, 0, 13, 2, 0, 14, 2, 0, 15, 1, 0, 65536, 11, 0, 65537, 15, 0, 65538, 2, 0, 65539, 2, 0, 65551, 11, 0, 131072, 11, 0, 131079, 15, 0, 131080, 2, 0, 131081, 2, 0, 131082, 2, 0, 131083, 2, 0, 131084, 40, 0, 131085, 8, 0, 131087, 11, 0, 196608, 11, 0, 196620, 22, 0, 196621, 23, 0, 196623, 11, 0, 262144, 11, 0, 262151, 14, 0, 262154, 14, 0, 262156, 22, 0, 262157, 23, 0, 262159, 11, 0, 327680, 11, 0, 327687, 11, 0, 327690, 11, 0, 327692, 16, 0, 327693, 17, 0, 327695, 11, 0, 393216, 11, 0, 393223, 11, 0, 393226, 11, 0, 393231, 11, 0, 458752, 11, 0, 458759, 11, 0, 458762, 11, 0, 458767, 11, 0, 524288, 9, 0, 524289, 2, 0, 524290, 2, 0, 524291, 2, 0, 524292, 2, 0, 524293, 2, 0, 524294, 2, 0, 524295, 4, 0, 524296, 2, 0, 524297, 2, 0, 524298, 4, 0, 524299, 2, 0, 524300, 2, 0, 524301, 2, 0, 524302, 2, 0, 524303, 10, 0 )
 
-[node name="PlayerManager" parent="." groups=[
-"Player",
-] instance=ExtResource( 2 )]
-position = Vector2( 879.758, 434.282 )
-
 [node name="ColorPlate" parent="." instance=ExtResource( 4 )]
-position = Vector2( 510.657, 445.724 )
+position = Vector2( 512, 448 )
 node_path = [ NodePath("../ToggleDoor2") ]
 character_target = 2
 
 [node name="ToggleDoor2" parent="." instance=ExtResource( 5 )]
-position = Vector2( 896.903, 64.1063 )
+position = Vector2( 896, 64 )
 
 [node name="Button" parent="." instance=ExtResource( 3 )]
-position = Vector2( 96, 98 )
+position = Vector2( 96, 96 )
 collision_layer = 3
 collision_mask = 3
 node_path = [ NodePath("../ToggleDoor5"), NodePath("../ToggleDoor6"), NodePath("../ToggleDoor7"), NodePath("../ToggleDoor8") ]
 
 [node name="ToggleDoor5" parent="." instance=ExtResource( 5 )]
-position = Vector2( 446, 192 )
+position = Vector2( 448, 192 )
 
 [node name="ToggleDoor6" parent="." instance=ExtResource( 5 )]
 position = Vector2( 384, 128 )
 
 [node name="ToggleDoor7" parent="." instance=ExtResource( 5 )]
-position = Vector2( 318, 128 )
+position = Vector2( 320, 128 )
 
 [node name="ToggleDoor8" parent="." instance=ExtResource( 5 )]
-position = Vector2( 254, 128 )
+position = Vector2( 256, 128 )
+
+[node name="Goal" parent="." instance=ExtResource( 8 )]
+position = Vector2( 96, 480 )
+next_scene = "res://scenes/End Screen.tscn"
+
+[node name="Player" parent="." groups=[
+"Player",
+] instance=ExtResource( 6 )]
+position = Vector2( 704, 448 )
+character_number = 1
+sprite = ExtResource( 2 )
+
+[node name="Player2" parent="." groups=[
+"Player",
+] instance=ExtResource( 6 )]
+position = Vector2( 832, 448 )
+sprite = ExtResource( 7 )
