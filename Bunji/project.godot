@@ -10,12 +10,13 @@ config_version=4
 
 _global_script_classes=[  ]
 _global_script_class_icons={
+
 }
 
 [application]
 
 config/name="Bunji"
-run/main_scene="res://scenes/Test Stage.tscn"
+run/main_scene="res://scenes/Stage 1.tscn"
 config/icon="res://icon.png"
 
 [display]

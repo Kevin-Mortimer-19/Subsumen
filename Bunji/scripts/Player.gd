@@ -40,7 +40,7 @@ func _physics_process(delta):
 		if Input.is_action_just_pressed("fire") && b_cooldown == 0:
 			fire();
 			b_cooldown = 10;
-	elif is_blue():
+	if is_blue():
 		if Input.is_action_just_pressed("move_c2_down"):
 			vel.y += 1;
 		if Input.is_action_just_pressed("move_c2_up"):
@@ -60,7 +60,7 @@ func mov(vel):
 	if ray.is_colliding():
 		if ray.get_collider().get_name().begins_with("PushBlock") && is_red():
 			ray.get_collider().mov(vel)
-		if ray.get_collider().get_parent().get_name() == "PlayerManager":
+		if ray.get_collider().get_name().begins_with("Player"):
 			purple_man(ray.get_collider())
 	if !ray.is_colliding():
 		global_position.x += tile_size*vel.x
