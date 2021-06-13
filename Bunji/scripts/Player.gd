@@ -24,6 +24,19 @@ func _ready():
 
 func _physics_process(delta):
 	vel = Vector2(0,0);
+	if is_blue():
+		if Input.is_action_just_pressed("move_c2_down"):
+			vel.y += 1;
+			input_set = [0,1,0,0]
+		if Input.is_action_just_pressed("move_c2_up"):
+			vel.y -= 1;
+			input_set = [1,0,0,0]
+		if Input.is_action_just_pressed("move_c2_left"):
+			vel.x -= 1;
+			input_set = [0,0,1,0]
+		if Input.is_action_just_pressed("move_c2_right"):
+			vel.x += 1;
+			input_set = [0,0,0,1]
 	if is_red(): 
 		if Input.is_action_just_pressed("move_c1_down"):
 			vel.y += 1;
@@ -40,15 +53,7 @@ func _physics_process(delta):
 		if Input.is_action_just_pressed("fire") && b_cooldown == 0:
 			fire();
 			b_cooldown = 10;
-	if is_blue():
-		if Input.is_action_just_pressed("move_c2_down"):
-			vel.y += 1;
-		if Input.is_action_just_pressed("move_c2_up"):
-			vel.y -= 1;
-		if Input.is_action_just_pressed("move_c2_left"):
-			vel.x -= 1;
-		if Input.is_action_just_pressed("move_c2_right"):
-			vel.x += 1;
+
 	mov(vel)
 	#move_and_slide( (vel.normalized()*move_speed), Vector2.UP);
 	if b_cooldown > 0:
